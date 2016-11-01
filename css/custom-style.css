@@ -1,11 +1,16 @@
 .self-pic {
-	max-width: 50%;
-	max-height: 50%;
+	max-width: 45%;
+	max-height: 45%;
 }
 
-.navbar-alternate{
+.navbar-alternate {
 	background-image: url("../images/background-img-copy.jpg"); 
 	color: #000000;
+}
+
+.navbar-alternate-text {
+	color: #000000 !important;
+	font-weight: 500;
 }
 
 label,
@@ -34,4 +39,8 @@ input[type=submit] {
 	padding: 10px 30px;
 	cursor: pointer;
 	margin-left: 50px;
+}
+
+footer {
+	text-align: center;
 }
